@@ -1,0 +1,26 @@
+[2018-03-13 00:46:17.726][debug][command:f14376cb-4b85-42ce-bf6f-7d390b830795][tid:01][com.facebook.buck.event.listener.SuperConsoleEventBusListener] Starting render scheduler (interval 100 ms)
+[2018-03-13 00:46:17.775][debug][command:f14376cb-4b85-42ce-bf6f-7d390b830795][tid:01][com.google.common.util.concurrent.ServiceManager] Starting PerfStatsTracking [STARTING].
+[2018-03-13 00:46:17.776][debug][command:null][tid:18][com.google.common.util.concurrent.ServiceManager] Started PerfStatsTracking [RUNNING] in 1.696 ms.
+[2018-03-13 00:46:17.776][debug][command:null][tid:18][com.google.common.util.concurrent.ServiceManager] Started PerfStatsTracking [RUNNING] in 1.696 ms.
+[2018-03-13 00:46:17.778][debug][command:f14376cb-4b85-42ce-bf6f-7d390b830795][tid:01][com.google.common.util.concurrent.ServiceManager] Starting ProcessTracker [STARTING].
+[2018-03-13 00:46:17.779][debug][command:f14376cb-4b85-42ce-bf6f-7d390b830795][tid:01][com.facebook.buck.cli.Main] InvocationInfo BuildId=[f14376cb-4b85-42ce-bf6f-7d390b830795] Args=[build]
+[2018-03-13 00:46:17.783][debug][command:null][tid:19][com.google.common.util.concurrent.ServiceManager] Started ProcessTracker [RUNNING] in 7.294 ms.
+[2018-03-13 00:46:17.783][debug][command:null][tid:19][com.google.common.util.concurrent.ServiceManager] Started ProcessTracker [RUNNING] in 7.294 ms.
+[2018-03-13 00:46:17.903][debug][command:f14376cb-4b85-42ce-bf6f-7d390b830795][tid:01][com.facebook.buck.io.ExecutableFinder] Executable 'python2' mapped to 'Optional.of(/usr/bin/python2)'
+[2018-03-13 00:46:18.205][warn ][command:null][tid:23][com.facebook.buck.event.listener.PublicAnnouncementManager] Failed to get public announcements. Reason: Failed to establish connection to server.
+[2018-03-13 00:46:18.205][warn ][command:null][tid:23][com.facebook.buck.event.listener.PublicAnnouncementManager] Failed to get public announcements. Reason: Failed to establish connection to server.
+[2018-03-13 00:46:18.227][warn ][command:f14376cb-4b85-42ce-bf6f-7d390b830795][tid:01][com.facebook.buck.util.Console] Build failure: Must specify at least one build target.
+[2018-03-13 00:46:18.239][info ][command:f14376cb-4b85-42ce-bf6f-7d390b830795][tid:01][com.facebook.buck.cli.Main] Awaiting termination of HTTP Write executor service. Waiting for all jobs to complete, or up to maximum of 1800 seconds...
+[2018-03-13 00:46:18.241][info ][command:f14376cb-4b85-42ce-bf6f-7d390b830795][tid:01][com.facebook.buck.cli.Main] Awaiting termination of CounterAggregatorExecutor executor service. Waiting for all jobs to complete, or up to maximum of 20 seconds...
+[2018-03-13 00:46:18.251][debug][command:f14376cb-4b85-42ce-bf6f-7d390b830795][tid:19][com.google.common.util.concurrent.ServiceManager] Service ProcessTracker [TERMINATED] has terminated. Previous state was: STOPPING
+[2018-03-13 00:46:18.251][debug][command:null][tid:18][com.google.common.util.concurrent.ServiceManager] Service PerfStatsTracking [TERMINATED] has terminated. Previous state was: STOPPING
+[2018-03-13 00:46:18.251][debug][command:null][tid:18][com.google.common.util.concurrent.ServiceManager] Service PerfStatsTracking [TERMINATED] has terminated. Previous state was: STOPPING
+[2018-03-13 00:46:18.255][debug][command:f14376cb-4b85-42ce-bf6f-7d390b830795][tid:01][com.facebook.buck.event.listener.SuperConsoleEventBusListener] Stopping render scheduler
+[2018-03-13 00:46:18.255][debug][command:f14376cb-4b85-42ce-bf6f-7d390b830795][tid:01][com.facebook.buck.event.listener.SuperConsoleEventBusListener] Stopping render scheduler
+[2018-03-13 00:46:18.255][debug][command:f14376cb-4b85-42ce-bf6f-7d390b830795][tid:01][com.facebook.buck.event.listener.SuperConsoleEventBusListener] Stopping console output (stdout dirty false, stderr dirty true).
+[2018-03-13 00:46:18.263][info ][command:null][tid:01][com.facebook.buck.cli.Main] Awaiting termination of CPU executor service. Waiting for all jobs to complete, or up to maximum of 60 seconds...
+[2018-03-13 00:46:18.263][info ][command:null][tid:01][com.facebook.buck.cli.Main] Awaiting termination of NETWORK executor service. Waiting for all jobs to complete, or up to maximum of 60 seconds...
+[2018-03-13 00:46:18.264][info ][command:null][tid:01][com.facebook.buck.cli.Main] Awaiting termination of PROJECT executor service. Waiting for all jobs to complete, or up to maximum of 60 seconds...
+[2018-03-13 00:46:18.266][info ][command:null][tid:01][com.facebook.buck.cli.Main] Awaiting termination of Disk IO executor service. Waiting for all jobs to complete, or up to maximum of 10 seconds...
+[2018-03-13 00:46:18.267][debug][command:null][tid:01][com.facebook.buck.event.listener.ChromeTraceBuildListener] Writing Chrome trace to buck-out/log/2018-03-12_19h16m17s_buildcommand_f14376cb-4b85-42ce-bf6f-7d390b830795/build.2018-03-13.00-46-17.f14376cb-4b85-42ce-bf6f-7d390b830795.trace
+[2018-03-13 00:46:18.273][debug][command:null][tid:01][com.facebook.buck.cli.Main] Done.
